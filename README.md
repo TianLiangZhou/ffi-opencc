@@ -66,6 +66,9 @@ echo "香港繁体转简体: ", $oc->hk2s("頭可斷，血可流"), "\n";
 > 
 > 香港繁体转简体: 头可断，血可流
 
+
+[在线转换](http://loocode.com/tool/opencc/simplified-chinese-to-traditional-chinese)
+
 ### FAQ
 
 - 在`centos`上执行失败?

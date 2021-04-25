@@ -3,7 +3,7 @@
 include __DIR__ . '/../src/OpenCC.php';
 
 
-$oc = \FastFFI\Opencc\OpenCC::new();
+$oc = \FastFFI\Opencc\QrCode::new();
 
 echo "简体转繁体: ", $oc->s2t("头可断，血可流"), "\n";
 

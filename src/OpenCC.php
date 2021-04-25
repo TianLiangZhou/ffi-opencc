@@ -146,7 +146,7 @@ class OpenCC
      * @param string|null $dictPath
      * @return static
      */
-    public static function new(string $dictPath = null): static
+    public static function new(string $dictPath = null): OpenCC
     {
         if (self::$cc == null) {
             self::$cc = new static($dictPath);
